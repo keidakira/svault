@@ -1,0 +1,19 @@
+.button {
+	padding: 12px 24px;
+	background-color: #67a4f5;
+	border-radius: 4px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	font-size: 14px;
+	font-family: "Roboto";
+}
+
+.button_fullWidth {
+	width: 100%;
+}
+
+.button:hover {
+	background-color: #5a8ad8;
+}

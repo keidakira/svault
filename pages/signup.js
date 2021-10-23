@@ -9,20 +9,21 @@ export default function Home() {
 	return (
 		<div className={styles.container}>
 			<div className={styles.card} style={{ width: "360px" }}>
-				<p className="bold large m-0 text-center">Sign In</p>
-				<p className="text-center">to your secret vault</p>
+				<p className="bold large m-0 text-center">Sign up</p>
+				<p className="text-center">and create your secret vault</p>
 				<br />
 				<Input type="text" placeholder="Email" />
 				<Input type="password" placeholder="Password" />
+				<Input type="password" placeholder="Confirm Password" />
 				<div className="flex justify-between">
-					<Link href="/signup">
+					<Link href="/">
 						<a>
-							<FlatButton title="Create an account" />
+							<FlatButton title="Already have an account?" />
 						</a>
 					</Link>
 					<Link href="/verification">
 						<a>
-							<Button title="Sign In" />
+							<Button title="Sign Up" />
 						</a>
 					</Link>
 				</div>
