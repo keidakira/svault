@@ -9,17 +9,11 @@ function Dashboard() {
 					href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
 				/>
 			</Head>
-			<div className="dashboard-header">
-				<div className="dashboard-header-title">
-					<h1>Dashboard</h1>
-				</div>
-				<div className="dashboard-header-buttons">
-					<button className="btn btn-primary">
-						<i className="fas fa-plus"></i>
-					</button>
-					<button className="btn btn-primary">
-						<i className="fas fa-cog"></i>
-					</button>
+			{/* Dashboard header using Tailwind css */}
+			<div className="flex flex-wrap items-center justify-between p-4 mb-4 shadow-md">
+				<div className="flex justify-between">
+					<h1 className="text-2xl font-bold">Svault</h1>
+					<p className="m-0">Dashboard</p>
 				</div>
 			</div>
 		</div>

@@ -8,7 +8,7 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
 	return (
 		<div className={styles.container}>
-			<div className={styles.card} style={{ width: "360px" }}>
+			<div className="w-1/4 border p-8 rounded-md">
 				<p className="bold large m-0 text-center">Sign up</p>
 				<p className="text-center">and create your secret vault</p>
 				<br />

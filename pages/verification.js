@@ -8,8 +8,10 @@ import styles from "../styles/Home.module.css";
 export default function verification() {
 	return (
 		<div className={styles.container}>
-			<div className={styles.card} style={{ width: "360px" }}>
-				<p className="bold large m-0 text-center">Email Verification</p>
+			<div className="w-1/4 border p-8 rounded-md">
+				<p className="font-medium text-2xl text-center mb-2">
+					Email Verification
+				</p>
 				<p className="text-center">
 					Enter the 6 digit code, we sent to your email
 				</p>
@@ -17,7 +19,7 @@ export default function verification() {
 				<Input
 					type="text"
 					placeholder="Code"
-					className="text-center spacing-4 semi-large"
+					className="text-center tracking-widest text-lg"
 					maxSize="6"
 				/>
 				<div className="flex justify-between">

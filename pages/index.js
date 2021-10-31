@@ -8,8 +8,8 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
 	return (
 		<div className={styles.container}>
-			<div className={styles.card} style={{ width: "360px" }}>
-				<p className="bold large m-0 text-center">Sign In</p>
+			<div className="w-1/4 border p-8 rounded-md">
+				<p className="font-medium text-2xl text-center mb-2">Sign In</p>
 				<p className="text-center">to your secret vault</p>
 				<br />
 				<Input type="text" placeholder="Email" />
